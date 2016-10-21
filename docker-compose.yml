@@ -1,0 +1,4 @@
+redis:
+  build: https://github.com/janeczku/remote-build-example/raw/master/image_redis.tar.gz
+  ports:
+    - "6379:6379"
